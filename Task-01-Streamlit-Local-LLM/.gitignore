@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+
+data/chats.json
+
+.streamlit/secrets.toml
+
+.vscode/
+.idea/
+
+.DS_Store
+Thumbs.db
