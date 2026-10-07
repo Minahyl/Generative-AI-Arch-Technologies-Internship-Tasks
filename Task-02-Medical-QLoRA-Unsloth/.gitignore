@@ -1,0 +1,48 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment / secrets
+.env
+.env.*
+*.secret
+
+# Logs
+*.log
+
+# Training outputs
+medical-qlora-output/
+medical-qlora-final/
+checkpoint-*/
+checkpoints/
+
+# Model weights / large files
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# Hugging Face cache
+.cache/
+huggingface_cache/
+
+# TensorBoard / experiment tracking
+runs/
+wandb/
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
